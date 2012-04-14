@@ -1,6 +1,7 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    ZenTest (4.6.2)
     abstract (1.0.0)
     actionmailer (3.0.0.rc)
       actionpack (= 3.0.0.rc)
@@ -28,8 +29,11 @@ GEM
       activemodel (= 3.0.0.rc)
       activesupport (= 3.0.0.rc)
     activesupport (3.0.0.rc)
+    annotate (2.4.0)
     arel (0.4.0)
       activesupport (>= 3.0.0.beta)
+    autotest-rails (4.1.2)
+      ZenTest (~> 4.5)
     builder (2.1.2)
     erubis (2.6.6)
       abstract (>= 1.0.0)
@@ -60,6 +64,9 @@ GEM
       rake (>= 0.8.3)
       thor (~> 0.14.0)
     rake (0.8.7)
+    spork (0.8.4)
+    spork-testunit (0.0.8)
+      spork (>= 0.6.0)
     sqlite3-ruby (1.2.5)
     thor (0.14.6)
     treetop (1.4.10)
@@ -71,6 +78,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ZenTest (= 4.6.2)
+  annotate (= 2.4.0)
+  autotest-rails (= 4.1.2)
   rails (= 3.0.0.rc)
   rake (= 0.8.7)
+  spork (= 0.8.4)
+  spork-testunit
   sqlite3-ruby (= 1.2.5)

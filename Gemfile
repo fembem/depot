@@ -4,6 +4,18 @@ gem 'rails', '3.0.0.rc'
 gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
 gem 'rake', '0.8.7'
 
+
+group :development do
+  gem 'annotate', '2.4.0'
+end
+
+group :test do
+  gem 'ZenTest', '4.6.2'
+  gem 'autotest-rails', '4.1.2'
+  gem 'spork', '0.8.4'
+  gem 'spork-testunit'
+end
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
