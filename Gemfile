@@ -16,6 +16,8 @@ group :test do
   gem 'spork-testunit'
 end
 
+gem 'will_paginate', '>= 3.0.pre' 
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 

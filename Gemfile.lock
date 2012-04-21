@@ -73,6 +73,7 @@ GEM
       polyglot
       polyglot (>= 0.3.1)
     tzinfo (0.3.33)
+    will_paginate (3.0.pre)
 
 PLATFORMS
   ruby
@@ -86,3 +87,4 @@ DEPENDENCIES
   spork (= 0.8.4)
   spork-testunit
   sqlite3-ruby (= 1.2.5)
+  will_paginate (>= 3.0.pre)
